@@ -1,0 +1,229 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5E0163A7
+P 7850 3150
+F 0 "#PWR?" H 7850 2900 50  0001 C CNN
+F 1 "GND" H 7855 2977 50  0000 C CNN
+F 2 "" H 7850 3150 50  0001 C CNN
+F 3 "" H 7850 3150 50  0001 C CNN
+	1    7850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E018770
+P 7850 3650
+F 0 "#PWR?" H 7850 3500 50  0001 C CNN
+F 1 "+12V" H 7865 3823 50  0000 C CNN
+F 2 "" H 7850 3650 50  0001 C CNN
+F 3 "" H 7850 3650 50  0001 C CNN
+	1    7850 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 4150 0    50   Input ~ 0
++3.3V
+Wire Wire Line
+	5700 3250 5700 3150
+Wire Wire Line
+	5300 3550 4850 3550
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E025A15
+P 4300 3700
+F 0 "R?" H 4368 3746 50  0000 L CNN
+F 1 "33K" H 4368 3655 50  0000 L CNN
+F 2 "" H 4300 3700 50  0001 C CNN
+F 3 "~" H 4300 3700 50  0001 C CNN
+	1    4300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E027E45
+P 4300 3250
+F 0 "R?" H 4368 3296 50  0000 L CNN
+F 1 "10.0K" H 4368 3205 50  0000 L CNN
+F 2 "" H 4300 3250 50  0001 C CNN
+F 3 "~" H 4300 3250 50  0001 C CNN
+	1    4300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3350 4300 3450
+Wire Wire Line
+	4300 3450 5300 3450
+Wire Wire Line
+	3900 3150 4300 3150
+$Comp
+L Device:CP C?
+U 1 1 5E032880
+P 7600 3400
+F 0 "C?" H 7718 3446 50  0000 L CNN
+F 1 "10μF" H 7718 3355 50  0000 L CNN
+F 2 "" H 7638 3250 50  0001 C CNN
+F 3 "~" H 7600 3400 50  0001 C CNN
+	1    7600 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E03409D
+P 6500 3400
+F 0 "C?" H 6615 3446 50  0000 L CNN
+F 1 "0.1μF" H 6615 3355 50  0000 L CNN
+F 2 "" H 6538 3250 50  0001 C CNN
+F 3 "~" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E0353CD
+P 7150 3400
+F 0 "C?" H 7268 3446 50  0000 L CNN
+F 1 "10μF" H 7268 3355 50  0000 L CNN
+F 2 "" H 7188 3250 50  0001 C CNN
+F 3 "~" H 7150 3400 50  0001 C CNN
+	1    7150 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 3250 7600 3150
+Wire Wire Line
+	7600 3550 7600 3650
+Wire Wire Line
+	7150 3250 7150 3150
+Wire Wire Line
+	7150 3550 7150 3650
+Wire Wire Line
+	6500 3250 6500 3150
+Wire Wire Line
+	6500 3550 6500 3650
+Connection ~ 4300 3150
+Wire Wire Line
+	4300 3150 5700 3150
+Wire Wire Line
+	6500 3650 6200 3650
+Connection ~ 6500 3650
+Connection ~ 6500 3150
+Connection ~ 5700 3150
+$Comp
+L Device:CP C?
+U 1 1 5E03C346
+P 4850 3700
+F 0 "C?" H 4968 3746 50  0000 L CNN
+F 1 "100nF" H 4968 3655 50  0000 L CNN
+F 2 "" H 4888 3550 50  0001 C CNN
+F 3 "~" H 4850 3700 50  0001 C CNN
+	1    4850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4150 4850 4150
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5E02A2D8
+P 4550 4150
+F 0 "L?" V 4775 4150 50  0000 C CNN
+F 1 "2.2uH" V 4684 4150 50  0000 C CNN
+F 2 "" H 4550 4150 50  0001 C CNN
+F 3 "~" H 4550 4150 50  0001 C CNN
+	1    4550 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 3850 4850 4150
+Connection ~ 4850 4150
+Wire Wire Line
+	4850 4150 5300 4150
+Wire Wire Line
+	4300 3800 4300 4150
+Connection ~ 4300 4150
+Wire Wire Line
+	4300 4150 4400 4150
+Wire Wire Line
+	4300 3600 4300 3450
+Connection ~ 4300 3450
+$Comp
+L Device:CP C?
+U 1 1 5E042B04
+P 3900 3650
+F 0 "C?" H 4018 3696 50  0000 L CNN
+F 1 "22μF" H 4018 3605 50  0000 L CNN
+F 2 "" H 3938 3500 50  0001 C CNN
+F 3 "~" H 3900 3650 50  0001 C CNN
+	1    3900 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 4150 3900 4150
+Wire Wire Line
+	3900 3150 3900 3500
+Wire Wire Line
+	3900 3800 3900 4150
+Connection ~ 3900 4150
+Wire Wire Line
+	3900 4150 4300 4150
+Connection ~ 7150 3150
+Connection ~ 7150 3650
+Connection ~ 7600 3150
+Wire Wire Line
+	7600 3150 7850 3150
+Connection ~ 7600 3650
+Wire Wire Line
+	7600 3650 7850 3650
+Wire Wire Line
+	7150 3150 7600 3150
+Wire Wire Line
+	7150 3650 7600 3650
+Wire Wire Line
+	6500 3150 7150 3150
+Wire Wire Line
+	6500 3650 7150 3650
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E026936
+P 6200 3550
+F 0 "R?" H 6268 3596 50  0000 L CNN
+F 1 "10.0K" H 6268 3505 50  0000 L CNN
+F 2 "" H 6200 3550 50  0001 C CNN
+F 3 "~" H 6200 3550 50  0001 C CNN
+	1    6200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:TPS563200 U?
+U 1 1 5E015899
+P 5700 3550
+F 0 "U?" H 5700 3917 50  0000 C CNN
+F 1 "TPS563200" H 5700 3826 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5750 3300 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps563200.pdf" H 5700 3550 50  0001 C CNN
+	1    5700 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3650 5300 4150
+Wire Wire Line
+	5700 3150 6500 3150
+Connection ~ 6200 3650
+Wire Wire Line
+	6200 3650 6100 3650
+Wire Wire Line
+	6200 3450 6100 3450
+$EndSCHEMATC
