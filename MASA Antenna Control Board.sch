@@ -74,7 +74,7 @@ U 1 1 5E032880
 P 10700 2350
 F 0 "C15" H 10818 2396 50  0000 L CNN
 F 1 "10μF" H 10818 2305 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" H 10738 2200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10738 2200 50  0001 C CNN
 F 3 "~" H 10700 2350 50  0001 C CNN
 	1    10700 2350
 	-1   0    0    1   
@@ -96,7 +96,7 @@ U 1 1 5E0353CD
 P 10250 2350
 F 0 "C14" H 10368 2396 50  0000 L CNN
 F 1 "10μF" H 10368 2305 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" H 10288 2200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10288 2200 50  0001 C CNN
 F 3 "~" H 10250 2350 50  0001 C CNN
 	1    10250 2350
 	-1   0    0    1   
@@ -153,7 +153,7 @@ U 1 1 5E042B04
 P 7000 2600
 F 0 "C5" H 7118 2646 50  0000 L CNN
 F 1 "22μF" H 7118 2555 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" H 7038 2450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7038 2450 50  0001 C CNN
 F 3 "~" H 7000 2600 50  0001 C CNN
 	1    7000 2600
 	-1   0    0    1   
@@ -903,4 +903,18 @@ F 3 "~" H 3750 4350 50  0001 C CNN
 	1    3750 4350
 	0    -1   -1   0   
 $EndComp
+Text GLabel 3100 1150 1    50   Input ~ 0
+RSSI2
+Text GLabel 2800 1150 1    50   Input ~ 0
+RSSI1
+Text GLabel 3200 1150 1    50   Input ~ 0
+RSSI3
+Text GLabel 3300 1150 1    50   Output ~ 0
+CS2
+Text GLabel 3400 1150 1    50   Output ~ 0
+ATTN2
+Text GLabel 2250 3550 3    50   Input ~ 0
+ATTN1
+Text GLabel 2950 3550 3    50   Input ~ 0
+CS1
 $EndSCHEMATC
