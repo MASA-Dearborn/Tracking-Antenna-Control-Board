@@ -907,4 +907,14 @@ Text GLabel 3100 1150 1    50   Input ~ 0
 RSSI2
 Text GLabel 2800 1150 1    50   Input ~ 0
 RSSI1
+Text GLabel 3200 1150 1    50   Input ~ 0
+RSSI3
+Text GLabel 3300 1150 1    50   Output ~ 0
+CS2
+Text GLabel 3400 1150 1    50   Output ~ 0
+ATTN2
+Text GLabel 2250 3550 3    50   Input ~ 0
+ATTN1
+Text GLabel 2950 3550 3    50   Input ~ 0
+CS1
 $EndSCHEMATC

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1-1123723-2
+#
+DEF 1-1123723-2 J 0 40 Y Y 1 L N
+F0 "J" -100 220 50 H V L BNN
+F1 "1-1123723-2" -100 -200 50 H V L BNN
+F2 "TE_1-1123723-2" 0 0 50 H I L BNN
+F3 "1-1123723-2" 0 0 50 H I L BNN
+F4 "Header" 0 0 50 H I L BNN
+F5 "https://www.te.com/usa-en/product-1-1123723-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F6 "2" 0 0 50 H I L BNN
+F7 "Compliant" 0 0 50 H I L BNN
+F8 "3.96 mm[.156 in]" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -100 200 100 200 N
+P 2 0 0 10 100 200 100 -100 N
+P 2 0 0 10 100 -100 -100 -100 N
+P 2 0 0 10 -100 -100 -100 200 N
+X 1 1 -200 100 100 R 40 40 0 0 P 
+X 2 2 -200 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

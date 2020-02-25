@@ -917,4 +917,90 @@ Text GLabel 2250 3550 3    50   Input ~ 0
 ATTN1
 Text GLabel 2950 3550 3    50   Input ~ 0
 CS1
+$Comp
+L 1-1123723-2:1-1123723-2 J6
+U 1 1 5E45F8EE
+P 1500 6600
+F 0 "J6" H 1443 6333 50  0000 C CNN
+F 1 "1-1123723-2" H 1443 6424 50  0000 C CNN
+F 2 "TE_1-1123723-2" H 1500 6600 50  0001 L BNN
+F 3 "1-1123723-2" H 1500 6600 50  0001 L BNN
+F 4 "Header" H 1500 6600 50  0001 L BNN "Field4"
+F 5 "https://www.te.com/usa-en/product-1-1123723-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 1500 6600 50  0001 L BNN "Field5"
+F 6 "2" H 1500 6600 50  0001 L BNN "Field6"
+F 7 "Compliant" H 1500 6600 50  0001 L BNN "Field7"
+F 8 "3.96 mm[.156 in]" H 1500 6600 50  0001 L BNN "Field8"
+	1    1500 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E460A14
+P 1700 6600
+F 0 "#PWR0101" H 1700 6350 50  0001 C CNN
+F 1 "GND" V 1705 6472 50  0000 R CNN
+F 2 "" H 1700 6600 50  0001 C CNN
+F 3 "" H 1700 6600 50  0001 C CNN
+	1    1700 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR0102
+U 1 1 5E46162D
+P 1700 6700
+F 0 "#PWR0102" H 1700 6550 50  0001 C CNN
+F 1 "+12V" V 1715 6828 50  0000 L CNN
+F 2 "" H 1700 6700 50  0001 C CNN
+F 3 "" H 1700 6700 50  0001 C CNN
+	1    1700 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L 1-1123723-2:1-1123723-2 J7
+U 1 1 5E4652DA
+P 1500 7150
+F 0 "J7" H 1443 6883 50  0000 C CNN
+F 1 "1-1123723-2" H 1443 6974 50  0000 C CNN
+F 2 "TE_1-1123723-2" H 1500 7150 50  0001 L BNN
+F 3 "1-1123723-2" H 1500 7150 50  0001 L BNN
+F 4 "Header" H 1500 7150 50  0001 L BNN "Field4"
+F 5 "https://www.te.com/usa-en/product-1-1123723-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 1500 7150 50  0001 L BNN "Field5"
+F 6 "2" H 1500 7150 50  0001 L BNN "Field6"
+F 7 "Compliant" H 1500 7150 50  0001 L BNN "Field7"
+F 8 "3.96 mm[.156 in]" H 1500 7150 50  0001 L BNN "Field8"
+	1    1500 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1-1123723-2:1-1123723-2 J8
+U 1 1 5E465BF1
+P 1500 7700
+F 0 "J8" H 1443 7433 50  0000 C CNN
+F 1 "1-1123723-2" H 1443 7524 50  0000 C CNN
+F 2 "TE_1-1123723-2" H 1500 7700 50  0001 L BNN
+F 3 "1-1123723-2" H 1500 7700 50  0001 L BNN
+F 4 "Header" H 1500 7700 50  0001 L BNN "Field4"
+F 5 "https://www.te.com/usa-en/product-1-1123723-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 1500 7700 50  0001 L BNN "Field5"
+F 6 "2" H 1500 7700 50  0001 L BNN "Field6"
+F 7 "Compliant" H 1500 7700 50  0001 L BNN "Field7"
+F 8 "3.96 mm[.156 in]" H 1500 7700 50  0001 L BNN "Field8"
+	1    1500 7700
+	-1   0    0    1   
+$EndComp
+Text GLabel 1700 7250 2    50   Output ~ 0
+StepperOne
+Text GLabel 1700 7150 2    50   Output ~ 0
+StepperTwo
+Text GLabel 1700 7800 2    50   Output ~ 0
+StepperThree
+Text GLabel 1700 7700 2    50   Output ~ 0
+StepperFour
+Text GLabel 3650 3550 3    50   Output ~ 0
+StepperTwo
+Text GLabel 3450 3550 3    50   Output ~ 0
+StepperOne
+Text GLabel 3250 3550 3    50   Output ~ 0
+StepperFour
+Text GLabel 3050 3550 3    50   Output ~ 0
+StepperThree
 $EndSCHEMATC
